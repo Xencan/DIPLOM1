@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    place-items: center;
+    margin: 0;
+    padding: 0 32px;
+    background: white;
+    font-family: "ubuntu";
+}
+
+/*.card{
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 160px 1000px 100px;
+    border-radius: 2rem;
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
