@@ -6,3 +6,6 @@ def authorizations(request):
 
 def main(request):
     return render(request, 'main/main.html')
+
+def signin(request):
+    return render(request, 'main/signin.html')

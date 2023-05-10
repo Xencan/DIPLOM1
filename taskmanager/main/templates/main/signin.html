@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>авторизация</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+    <title>Вход</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/sign.css' %}" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <div class="train">
                 <i class='bx bxs-train' ></i>
             </div>
-            <h1>Регистрация</h1>
+            <h1>Вход</h1>
             <form>
                 <div class="group">
                     <div class="field">
@@ -24,36 +24,17 @@
                     </div>
 
                     <div class="field">
-                        <i class='bx bxs-user'></i>
-                        <input type="text" placeholder="Имя">                     
-                    </div>
-
-                    <div class="field">
-                        <i class='bx bxs-user'></i>
-                        <input type="text" placeholder="Фамилия">                     
-                    </div>
-
-                    <div class="field">
-                        <i class='bx bxs-envelope'></i>
-                        <input type="email" placeholder="Email">                     
-                    </div>
-
-                    <div class="field">
                         <i class='bx bxs-lock-alt' ></i>
                         <input type="password" placeholder="Пароль">                     
                     </div>
+
                     <div class="btn">
-                        <button type="button" >Зарегестрироваться</button>
-                        <a href="/signin" class="button">Войти</a>
+                        <button type="button">Войти</button>
                     </div>
+                </div>
             </form>
         </div>
 
     </div>
-        
-    
-
 </body>
 </html>
-
-
