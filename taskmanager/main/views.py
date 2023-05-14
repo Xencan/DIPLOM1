@@ -9,3 +9,12 @@ def main(request):
 
 def signin(request):
     return render(request, 'main/signin.html')
+
+def student(request):
+    return render(request, 'main/studentreg.html')
+
+def prepod(request):
+    return render(request, 'main/prepodreg.html')
+
+def jurnal(request):
+    return render(request, 'main/jurnal.html')

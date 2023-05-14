@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>авторизация</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prepod.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="train">
+                <i class='bx bxs-train' ></i>
+            </div>
+            <h1>Регистрация Преподавателя</h1>
+            <form>
+                <div class="group">
+                    <div class="field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Логин">                     
+                    </div>
+
+                    <div class="field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Имя">                     
+                    </div>
+
+                    <div class="field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Фамилия">                     
+                    </div>
+
+                    <div class="field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Отчество">                     
+                    </div>
+
+                    <div class="field">
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" placeholder="Пароль">                     
+                    </div>
+                    <div class="btn">
+                        <button type="button" >Зарегестрироваться</button>
+                        
+                    </div>
+            </form>
+        </div>
+
+    </div>
+        
+    

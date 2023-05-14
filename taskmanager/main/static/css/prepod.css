@@ -66,25 +66,6 @@ input{
     text-decoration: 0;
 }
 .btn button{
-    flex-basis: 48%;
-    background: rgba(35, 44, 177, 0.815);
-    color: #fff;
-    height: 40px;
-    border-radius: 2rem;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    text-decoration: 0;
-}
-
-.btn-two{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: 0;
-}
-
-.btn-two button{
     flex-basis: 100%;
     background: rgba(35, 44, 177, 0.815);
     color: #fff;
@@ -94,5 +75,5 @@ input{
     outline: 0;
     cursor: pointer;
     text-decoration: 0;
-    margin: 20px;
 }
+
