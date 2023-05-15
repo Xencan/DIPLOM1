@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/select.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnal">Журнал &bigtriangledown;</a>
+                <ul>
+                  <li><a href="#"></a>Математика</li>
+                  <li><a href="#"></a>Литература</li>
+                  <li><a href="#"></a>Философия</li>
+                </ul>
+            </li>
+          </ul>
+        </nav>
+  
+      </header>
+
+      <div class="container">
+        <div class="wrap">
+            <div class="search">
+              <input type="text" class="searchTerm" placeholder="Поиск преподавателя">
+              <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>профиль препода</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prepodprof.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnal">Журнал &bigtriangledown;</a>
+                <ul>
+                  <li><a href="#"></a>Математика</li>
+                  <li><a href="#"></a>Литература</li>
+                  <li><a href="#"></a>Философия</li>
+                </ul>
+            </li>
+          </ul>
+        </nav>
+  
+      </header>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>Профиль преподавателя</h1>
+            <form>
+                <div class="group">
+                    <div class="text-field">
+                        <label class="text-field__label" for="username">Фамилия:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Имя:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Отчество:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Дата рождения:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="Число">
+                        <input class="text-field__input" type="text"  id="username" placeholder="Месяц">
+                        <input class="text-field__input" type="text"  id="username" placeholder="Год">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Должность:</label>
+                        <input class="text-field__input" type="text"  id="dolg" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Руководит группой</label>
+                        <input class="text-field__input" type="text"  id="group" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Дополнительная информация</label>
+                        <input class="text-field__input" type="text"  id="group" placeholder="">
+                      </div>
+
+
+                    <div class="btn">
+                        <button class="button" style="vertical-align:middle"><span>сохранить</span></button>
+                        
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

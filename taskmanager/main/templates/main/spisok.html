@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/spisok.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnal">Журнал &bigtriangledown;</a>
+                <ul>
+                  <li><a href="#"></a>Математика</li>
+                  <li><a href="#"></a>Литература</li>
+                  <li><a href="#"></a>Философия</li>
+                </ul>
+            </li>
+          </ul>
+        </nav>
+  
+      </header>
+
+      <div class="container">
+        <div class="form-box">
+            <h1>Список журналов по учебным группам</h1>
+                    <table>
+                      <tr>
+                        <th>№</th>
+                        <th>Группа</th>
+                        <th>Преподаватель</th>
+                    </tr>
+                    <td>1</td>
+                    <td><a href="#">ВТ-523</a></td>
+                    <td><a href="#">Курьян Даниил Алексеевич</a></td>
+                    </table>
+        </div>
+      </div>
+</body>
+</html>

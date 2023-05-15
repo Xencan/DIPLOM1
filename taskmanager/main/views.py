@@ -18,3 +18,12 @@ def prepod(request):
 
 def jurnal(request):
     return render(request, 'main/jurnal.html')
+
+def prepodprof(request):
+    return render(request, 'main/prepodprofile.html')
+
+def select_prof(request):
+    return render(request, 'main/select_prof.html')
+
+def spisok(request):
+    return render(request, 'main/spisok.html')
