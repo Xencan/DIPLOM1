@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>профиль препода</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/addurok.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnali">Журналы</a>
+            <li><a href="/prepodprof">Добавить препода</a></li>
+            <li><a href="/select_prof">Поиск</a></li>
+            <li><a href="/spisok">Список</a></li>
+            <li><a href="/jurnal">Журнал</a></li>
+          </ul>
+        </nav>
+  
+      </header>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>Добавление Предмета</h1>
+            <form>
+                <div class="group">
+                    <div class="text-field">
+                        <label class="text-field__label" for="username">Полное наименование:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="">
+                      </div>
+
+                      <div class="text-field">
+                        <label class="text-field__label" for="username">Заголовок:</label>
+                        <input class="text-field__input" type="text"  id="username" placeholder="">
+                      </div>
+
+                    <div class="btn">
+                        <button class="button" style="vertical-align:middle"><span>сохранить</span></button>
+                        
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

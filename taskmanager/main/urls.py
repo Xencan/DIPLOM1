@@ -11,6 +11,8 @@ urlpatterns = [
     path('prepodprof', views.prepodprof),
     path('select_prof', views.select_prof),
     path('spisok', views.spisok),
-    
-    
+    path('jurnali', views.jurnali),
+    path('addgroup', views.addgroup),
+    path('addurok', views.addurok),
+    path('edit', views.edit),
 ]

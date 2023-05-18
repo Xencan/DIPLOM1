@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>журнал</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jurnali.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnali">Журналы</a>
+            <li><a href="/prepodprof">Добавить препода</a></li>
+            <li><a href="/select_prof">Поиск</a></li>
+            <li><a href="/spisok">Список</a></li>
+            <li><a href="/jurnal">Журнал</a></li>
+          </ul>
+        </nav>
+  
+      </header>
+
+      <div class="container">
+        <div class="form-box">
+            <h1>Журнал Группы ВТ-523</h1>
+                    <table>
+                      <tr>
+                        <th>№</th>
+                        <th>Предмет</th>
+                    </tr>
+                    <td>1</td>
+                    <td><a href="/jurnal">Микропроцессоры</a></td>
+                    </table>
+
+                    <div class="text">
+                        <table>
+                            <tr>
+                                <th>№</th>
+                                <th>Cтудент</th>
+                            </tr>
+                            <td>1</td>
+                            <td><a href="#">Курьян Даниил Алексеевич</a></td>
+                        </table>
+                    </div>
+
+                        <div class="btn">
+                            <button class="button" style="vertical-align:middle" onclick="document.location='addurok'"><span>Добавить предмет</span></button>
+                            <button class="button" style="vertical-align:middle"><span>Добавить студента</span></button>
+                        </div>
+                        
+        </div>
+      </div>
+
+</body>
+</html>

@@ -27,3 +27,15 @@ def select_prof(request):
 
 def spisok(request):
     return render(request, 'main/spisok.html')
+
+def jurnali(request):
+    return render(request, 'main/jurnali.html')
+
+def addgroup(request):
+    return render(request, 'main/addgroup.html')
+
+def addurok(request):
+    return render(request, 'main/addurok.html')
+
+def edit(request):
+    return render(request, 'main/edit_profile.html')
