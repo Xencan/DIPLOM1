@@ -39,3 +39,9 @@ def addurok(request):
 
 def edit(request):
     return render(request, 'main/edit_profile.html')
+
+def osebe(request):
+    return render(request, 'main/osebe.html')
+
+def ocenka(request):
+    return render(request, 'main/ocenka.html')

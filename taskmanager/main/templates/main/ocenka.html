@@ -6,12 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/select.css' %}" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ocenka.css' %}" />
 </head>
 <body>
-    
     <header>
 
         <nav>
@@ -24,10 +21,9 @@
             <li><a href="/jurnal">Журнал</a></li>
           </ul>
         </nav>
-        
   
       </header>
-
+      
       <div class="header">
         <a href="#default" class="logo">AdminPanel</a>
         <div class="header-right">
@@ -40,18 +36,26 @@
           <a href="#about">Панель админа</a>
         </div>
       </div>
-      <h1>Выберете профиль для просмотра</h1>
-      <select name="profile" class="form-control" autocomplete="off" required="" id="id_profile">
-        <option value="" selected="">Профиль</option>
+
+      <div class="form-box">
+        <form>
+        <select name="profile" class="form-control" autocomplete="off" required="" id="id_profile">
+            <option value="" selected="">Оценка</option>
+            <option value="12">5</option>
+            <option value="28">4</option>
+            <option value="29">3</option>
+            <option value="30">2</option>
+            <option value="30">-</option>
+            <option value="30">НБ</option>
+          </select>
+      </div>
       
-        <option value="12">ЛОГИН: "glebas" ФИО: Глебасов Глеб Глебасович</option>
-      
-        <option value="28">ЛОГИН: "user" ФИО: Test Test Test</option>
-      
-        <option value="29">ЛОГИН: "user2" ФИО: asd asd asd</option>
-      
-        <option value="30">ЛОГИН: "teacher33" ФИО: None None None</option>
-      
-      </select>
+      <div class="calendar1">
+        <form>
+          <input type="date" name="calendar">
+          </form>
+      </div>
+
+    </form>
 </body>
 </html>

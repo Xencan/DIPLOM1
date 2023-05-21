@@ -20,7 +20,6 @@ header{
     align-items: center;
     padding: 0 8%;
     box-shadow: 0 5px 10px black;
-    z-index: 4;
 }
 
 header nav ul li {
@@ -59,62 +58,8 @@ nav ul li:hover > ul {
 }
 
 
-.form-box h1{
-    position: absolute;
-    top: 120px;
-    left: 20%;
-    font-size: 45px;
-}
 
-th{
-    padding: 5px ;
-}
-
-td{
-    padding: 3px;
-}
-
-a{
-    background-image: linear-gradient(#ff0000 50%, #ff0000 50%), linear-gradient(silver 50%, silver 50%);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 0 2px, 100% 2px;
-    color: #1E3A52;
-    padding-bottom: 3px;
-    transition: .5s ease-in-out;
-}
-
-a:hover{
-    background-size: 100% 2px, 100% 2px;
-    color: rgba(248, 32, 4, 0.815);
-}
-
-table{
-    border-collapse: collapse;
-    padding: 30px;
-    position: absolute;
-    top: 190px;
-    left: 20%;
-    z-index: 2;
-    box-shadow: 0 6px 17px #aaaaaa;
-}
-
-th,td {
-  border: 1px solid black;
-  padding: 10px 10px;
-  text-align: center;
-  margin: 20px;
-}
-
-body{background:url(https://bootstraptema.ru/images/bg/bg-1.png)}
-
-.header {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-  }
-  
-  .header a {
+.header a {
     float: left;
     color: black;
     text-align: center;
@@ -151,3 +96,42 @@ body{background:url(https://bootstraptema.ru/images/bg/bg-1.png)}
       float: none;
     }
   }
+
+  body{background:url(https://bootstraptema.ru/images/bg/bg-1.png)}
+
+  .form-box{
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    background: #fff;
+    border-radius: 2rem;
+    transform: translate(-50%, -50%);
+    padding: 50px 60px 70px;
+    text-align: center;
+    box-shadow: 0 6px 50px #aaaaaa;
+}
+
+.calendar1 form{
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 6px;
+  }
+
+  .form-control{
+    position: absolute;
+    height: 30px;
+    width:600px;
+    border-radius: 7px;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+}
+
+

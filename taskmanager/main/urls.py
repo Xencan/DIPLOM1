@@ -15,4 +15,6 @@ urlpatterns = [
     path('addgroup', views.addgroup),
     path('addurok', views.addurok),
     path('edit', views.edit),
+    path('osebe', views.osebe),
+    path('ocenka', views.ocenka),
 ]

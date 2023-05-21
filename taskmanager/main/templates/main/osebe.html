@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>профиль препода</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/osebe.css' %}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+          <ul>
+            <li><a href="/main">Home</a></li>
+            <li><a href="/jurnali">Журналы</a>
+            <li><a href="/prepodprof">Добавить препода</a></li>
+            <li><a href="/select_prof">Поиск</a></li>
+            <li><a href="/spisok">Список</a></li>
+            <li><a href="/jurnal">Журнал</a></li>
+          </ul>
+        </nav>
+  
+      </header>
+      
+      <div class="header">
+        <a href="#default" class="logo">AdminPanel</a>
+        <div class="header-right">
+          <a class="active" href="/select_prof">Список преподователей</a>
+          <a href="/prepod">Новый преподователь</a>
+          <a href="#about">Добавить студента</a>
+          <a href="/spisok">Список групп</a>
+          <a href="/addgroup">Добавить группу</a>
+          <a href="/addurok">Добавить предмет</a>
+          <a href="#about">Панель админа</a>
+        </div>
+      </div>
+      
+
+      <div class="wrapper">
+        <div class="left">
+          <img src="{{ user.png }}" width="{{ 100 }}">
+            <h4>Курьян Даниил</h4>
+            <p>Преподаватель ПФ ПГУПС</p>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Информация</h3>
+                <div class="info_data">
+                  <div class="data">
+                      <h4>Возраст</h4>
+                      <p>31</p>
+                  </div>
+                  <div class="data">
+                      <h4>Заходил</h4>
+                      <p>None</p>
+                </div>
+            </div>
+
+
+            <div class="projects">
+              <h3>Подробнее</h3>
+              <div class="projects_data">
+                <div class="data">
+                    <h4>Куратор группы</h4>
+                    <p>ВТ-523</p>
+                </div>
+                <div class="data">
+                    <h4>Кабинет</h4>
+                    <p>101</p>
+              </div>
+          </div>
+
+
+        </div>
+      </div>
+</body>
+</html>
