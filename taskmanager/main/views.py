@@ -45,3 +45,6 @@ def osebe(request):
 
 def ocenka(request):
     return render(request, 'main/ocenka.html')
+    
+def editstud(request):
+    return render(request, 'main/edit_student.html')

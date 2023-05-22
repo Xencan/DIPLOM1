@@ -65,6 +65,7 @@ nav ul li:hover > ul {
     align-items: center;
     justify-content: center;
     font-size: 40px;
+    top: 200px;
 }
 
 body{background:url(https://bootstraptema.ru/images/bg/bg-1.png)}

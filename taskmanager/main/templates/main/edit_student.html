@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>профиль препода</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/edit_profile.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/edit_student.css' %}" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -41,18 +41,9 @@
       </div>
       
         <div class="form-box">
-            <h1>Изменение профиля преподователя</h1>
+            <h1>Изменение профиля студента</h1>
             <form>
                 <div class="group">
-                    <div class="text-field">
-                        <label class="text-field__label" for="username">Логин:</label>
-                        <input class="text-field__input" type="text"  id="username" placeholder="">
-                      </div>
-
-                      <div class="text-field">
-                        <label class="text-field__label" for="username">Должность:</label>
-                        <input class="text-field__input" type="text"  id="username" placeholder="">
-                      </div>
 
                       <div class="text-field">
                         <label class="text-field__label" for="username">Фамилия:</label>
@@ -76,7 +67,7 @@
                         <input class="text-field__input" type="text"  id="username" placeholder="Год">
                       </div>
                       
-                      <label class="text-field__label" for="username">Руководит группой:</label>
+                      <label class="text-field__label" for="username">Группа:</label>
                       <select name="profile" class="form-control" autocomplete="off" required="" id="id_profile">
                         <option value="" selected="">Группа</option>
                       
@@ -91,10 +82,15 @@
                       </select>
 
 
-                      <div class="text-field">
-                        <label class="text-field__label" for="username">Дополнительная информация:</label>
-                        <input class="text-field__input" type="text"  id="group" placeholder="">
-                      </div>
+                      <label class="text-field__label" for="username">Пол:</label>
+                      <select name="profile" class="form-control" autocomplete="off" required="" id="id_profile">
+                        <option value="" selected=""></option>
+                      
+                        <option value="12">М</option>
+                      
+                        <option value="28">Ж</option>
+                      
+                      </select>
 
 
                     <div class="btn">

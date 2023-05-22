@@ -17,4 +17,5 @@ urlpatterns = [
     path('edit', views.edit),
     path('osebe', views.osebe),
     path('ocenka', views.ocenka),
+    path('editstud', views.editstud),
 ]
