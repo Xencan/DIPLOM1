@@ -62,8 +62,7 @@ nav ul li:hover > ul {
     position: relative;
     width: 90%;
     max-width: 760px;
-    position: absolute;
-    top: 55%;
+    top: 400px;
     left: 50%;
     background: #fff;
     border-radius: 2rem;
