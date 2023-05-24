@@ -60,9 +60,9 @@ nav ul li:hover > ul {
 
 
 .form-box h1{
-    position: absolute;
-    top: 120px;
-    left: 20%;
+    position: relative;
+    top: 50px;
+    left: 0%;
     font-size: 45px;
 }
 
@@ -92,9 +92,9 @@ a:hover{
 table{
     border-collapse: collapse;
     padding: 30px;
-    position: absolute;
-    top: 190px;
-    left: 20%;
+    position: relative;
+    top: 80px;
+    left: 0%;
     z-index: 2;
     box-shadow: 0 6px 17px #aaaaaa;
 }

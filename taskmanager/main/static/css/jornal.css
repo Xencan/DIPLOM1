@@ -71,8 +71,8 @@ nav ul li:hover > ul {
 }
 
 h1{
-    position: absolute;
-    top: 140px;
+    position: relative;
+    top: -40px;
     left: 30%;
     z-index: 2;
 }
@@ -87,7 +87,7 @@ h1{
   
   table {
     position: relative;
-    top: 130px;
+    top: 60px;
     left: 10%;
     border-collapse: collapse;
     border-spacing: 10px 20px;
@@ -153,39 +153,42 @@ h1{
     }
   }
   .calendar1 form{
-    position: absolute;
-    top: 230px;
+    width: 100px;
+    position: relative;
+    top: 150px;
     left: 190px;
     border: 1px solid #000;
     border-radius: 6px;
   }
 
   .calendar2 form{
-    position: absolute;
-    top: 230px;
+    position: relative;
+    width: 100px;
+    top: 102px;
     left: 340px;
     border: 1px solid #000;
     border-radius: 6px;
   }
   
   .calendar1 h1 {
-    position: absolute;
-    top: -20px;
+    position: relative;
+    top: 140px;
+    left: 200px;
     font-size: 20px;
     
   }
 
   .calendar2 h1 {
-    position: absolute;
-    top: 210px;
+    position: relative;
+    top: 90px;
     left:360px;
     font-size: 20px;
   }
 
  .btn {
-  position: absolute;
-  left: 500px;
-  top: 230px;
+  position: relative;
+  left: 460px;
+  top: 80px;
  }
 
 

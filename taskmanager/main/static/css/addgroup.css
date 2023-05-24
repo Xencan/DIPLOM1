@@ -62,8 +62,8 @@ nav ul li:hover > ul {
 .form-box{
     width: 90%;
     max-width: 760px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 300px;
     left: 50%;
     background: #fff;
     border-radius: 2rem;
