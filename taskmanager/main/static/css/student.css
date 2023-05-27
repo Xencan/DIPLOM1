@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.form-box{
+.form-box10{
     width: 90%;
     max-width: 450px;
     position: absolute;
@@ -22,14 +22,14 @@
 }
 
 
-.form-box h1{
+.form-box10 h1{
     font-size: 30px;
     margin-bottom: 30px;
     color: rgba(35, 44, 177, 0.815);
     position: relative;
 }
 
-.field{
+.field-regstudent{
     background: #eaeaea;
     margin: 15px 0;
     border-radius: 10px;
@@ -38,7 +38,7 @@
 
 }
 
-input{
+.field-regstudent input{
     width: 100%;
     background: transparent;
     border: 0;
@@ -46,22 +46,22 @@ input{
     padding: 18px 15px;
 }
 
-.field i{
+.field-regstudent i{
     margin-left: 15px;
     color: #999;
 }
 
-.train i{
+.train-regstudent i{
     font-size: 40px;
     color: rgba(35, 44, 177, 0.815);
 }
-.btn{
+.btn-regstudent{
     width: 100%;
     display: flex;
     justify-content: space-between;
     text-decoration: 0;
 }
-.btn button{
+.btn-regstudent button{
     flex-basis: 100%;
     background: rgba(35, 44, 177, 0.815);
     color: #fff;
@@ -73,7 +73,7 @@ input{
     text-decoration: 0;
 }
 
-.select {
+.select-regstudent {
     width: 100%;
     appearance: none;
     border: 0;

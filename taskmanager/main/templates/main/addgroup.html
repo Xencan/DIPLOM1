@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>профиль препода</title>
+    <title>Добавить группу</title>
     <link rel="stylesheet" type="text/css" href="{% static 'css/addgroup.css' %}" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -42,21 +42,21 @@
       
 
 
-        <div class="form-box">
+        <div class="form-box1">
             <h1>Добавление Группы</h1>
             <form>
                 <div class="group">
-                    <div class="text-field">
+                    <div class="text-field-group">
                         <label class="text-field__label" for="username">Полное наименование:</label>
                         <input class="text-field__input" type="text"  id="username" placeholder="">
                       </div>
 
-                      <div class="text-field">
+                      <div class="text-field-group">
                         <label class="text-field__label" for="username">Заголовок:</label>
                         <input class="text-field__input" type="text"  id="username" placeholder="">
                       </div>
 
-                      <div class="group">
+                      <div class="group-select">
                         <label class="text-field__label" for="username">Уроки класса:</label>
                         <select name="select-category" id="" class="select">
                             <option value="">Техмех</option>
@@ -65,9 +65,8 @@
                         </select>
                     </div>
 
-                    <div class="btn">
-                        <button class="button" style="vertical-align:middle"><span>сохранить</span></button>
-                        
+                    <div class="btn-group">
+                        <button style="vertical-align:middle"><span>сохранить</span></button>
                     </div>
             </form>
         </div>

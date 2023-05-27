@@ -59,7 +59,7 @@ nav ul li:hover > ul {
 
 
     
-    .form-control{
+    .form-control-select{
         position: relative;
         top: 100px;
         left: 37%;
@@ -68,7 +68,7 @@ nav ul li:hover > ul {
         border-radius: 7px;
     }
 
-    .form-control:focus{
+    .form-control-select:focus{
         box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
         color: #212529;
         background-color: #fff;
@@ -76,7 +76,7 @@ nav ul li:hover > ul {
         outline: 0;
     }
 
-    h1 {
+    .d h1 {
         position: relative;
         font-size: 30px;
         top: 50px;

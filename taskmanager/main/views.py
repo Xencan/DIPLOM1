@@ -48,3 +48,6 @@ def ocenka(request):
     
 def editstud(request):
     return render(request, 'main/edit_student.html')
+    
+def main1(request):
+    return render(request, 'main/main1.html')

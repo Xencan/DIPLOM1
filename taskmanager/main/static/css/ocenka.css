@@ -99,7 +99,7 @@ nav ul li:hover > ul {
 
   body{background:url(https://bootstraptema.ru/images/bg/bg-1.png)}
 
-  .form-box{
+  .form-box5{
     width: 100%;
     max-width: 200px;
     position: absolute;
@@ -113,14 +113,14 @@ nav ul li:hover > ul {
     box-shadow: 0 6px 50px #aaaaaa;
 }
 
-.calendar1 form{
+.calendar1-ocenka form{
     position: absolute;
     border-radius: 6px;
       top: 15px;
       left: 42px;
   }
 
-  .form-control{
+  .form-control-ocenka{
     height: 30px;
     position: absolute;
     width:100px;
@@ -129,7 +129,7 @@ nav ul li:hover > ul {
     border-radius: 7px;
 }
 
-.form-control:focus{
+.form-control-ocenka:focus{
     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
     color: #212529;
     background-color: #fff;
@@ -138,14 +138,14 @@ nav ul li:hover > ul {
 }
 
 
-.btn{
+.btn-ocenka{
   width: 102%;
   display: flex;
   justify-content: space-between;
   text-decoration: 0;
 }
 
-.btn button {
+.btn-ocenka button {
   position: absolute;
   display: inline-block;
   border-radius: 20px;
@@ -163,14 +163,14 @@ nav ul li:hover > ul {
   left: 25px;
 }
 
-.button span {
+.button-ocenka span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button-ocenka span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -179,11 +179,11 @@ nav ul li:hover > ul {
   transition: 0.5s;
 }
 
-.button:hover span {
+.button-ocenka:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button-ocenka:hover span:after {
   opacity: 1;
   right: 0;
 }

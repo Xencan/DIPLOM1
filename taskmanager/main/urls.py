@@ -18,4 +18,5 @@ urlpatterns = [
     path('osebe', views.osebe),
     path('ocenka', views.ocenka),
     path('editstud', views.editstud),
+    path('main1', views.main1),
 ]

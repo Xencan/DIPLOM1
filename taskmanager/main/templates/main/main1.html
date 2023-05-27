@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- INCLUDE CSS -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/edit_profile.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/sign.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/addgroup.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/addurok.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/edit_profile.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/edit_student.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/jornal.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/jurnali.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/req.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/ocenka.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'front/static/css/osebe.css' %}" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        {% include 'includes/messages.html' %}
+        {% block content %}
+        {% endblock content %} 
+        {% block table %}
+        {% endblock table %}        
+    </div>
+<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
